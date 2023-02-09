@@ -1,0 +1,152 @@
+body {
+  margin: 0px;
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 1600px 900px;
+}
+#startButton {
+  position: relative;
+  width: 800px;
+  height: 100px;
+  top: 374px;
+  left: 391px;
+  background: #ffffffcc;
+  box-shadow: 5px 8px 9px #0000006e;
+  border-radius: 20px;
+}
+#startButton span {
+  position: absolute;
+  top: 34px;
+  left: 272px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #361157;
+}
+#topWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#scoreReactangle {
+  width: 200px;
+  height: 80px;
+  background: #ffffffcc;
+  box-shadow: 5px 8px 9px #0000006e;
+  border-radius: 0px 0px 20px 0px;
+}
+#scoreReactangle span {
+  position: relative;
+  width: 164px;
+  height: 60px;
+  top: 10px;
+  left: 18px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #361157;
+}
+#loadingGameWrapper {
+  flex: 1;
+  max-width: 1000px;
+  height: 20px;
+  background: #ffffffcc;
+  box-shadow: 5px 8px 9px #0000006e;
+  border-radius: 10px;
+}
+#loadingGameWrapper #innerLoading {
+  position: absolute;
+  width: 0px;
+  height: 20px;
+  background: #8E44AD;
+  border-radius: 10px;
+}
+#restartButton {
+  position: relative;
+  width: 100px;
+  height: 80px;
+  background: #ffffffcc;
+  box-shadow: 5px 8px 9px #0000006e;
+  border-radius: 0px 0px 0px 20px;
+}
+#restartButton img {
+  position: absolute;
+  left: 23px;
+  top: 17px;
+}
+.urlCardBack {
+  background-image: url(img/cards/Card_Hover.png);
+}
+.earth {
+  background-image: url(img/cards/Card_Hover1.png);
+}
+.mercury {
+  background-image: url(img/cards/Card_Hover\ 23.png);
+}
+.venus {
+  background-image: url(img/cards/Card_Hover\ 31.png);
+}
+.mars {
+  background-image: url(img/cards/Card_Hover\ 25.png);
+}
+.jupiter {
+  background-image: url(img/cards/Card_Hover\ 26.png);
+}
+.saturn {
+  background-image: url(img/cards/Card_Hover\ 24.png);
+}
+.uranus {
+  background-image: url(img/cards/Card_Hover\ 28.png);
+}
+.neptune {
+  background-image: url(img/cards/Card_Hover\ 30.png);
+}
+.pluto {
+  background-image: url(img/cards/Card_Hover\ 29.png);
+}
+#gameWrapper {
+  width: 1200px;
+  height: 600px;
+  margin-left: 12%;
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 1000px;
+  background: #ffffffcc;
+  box-shadow: 5px 8px 9px #0000006e;
+  border-radius: 10px;
+}
+.cardWrapper {
+  position: relative;
+  width: 16.666%;
+  height: 25.6%;
+  left: 30px;
+  top: 15px;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform 0.5ms;
+}
+.cardWrapper:active {
+  transform: scale(0.95);
+  transition: all 2ms;
+}
+.cardWrapper.flip {
+  transform: rotateY(180deg);
+}
+.cardFace,
+.cardBack {
+  width: 129px;
+  height: 174px;
+  position: absolute;
+  background-size: cover;
+  backface-visibility: hidden;
+}
+.cardFace {
+  transform: translate(50%) rotateY(180deg);
+}
