@@ -1,0 +1,45 @@
+
+
+#app{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.marker{
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    display: block;
+    position: absolute;
+    margin-left: 225px;
+    margin-top: -15px;
+}
+
+.wheel{
+   width: 500px;
+   height: 500px;
+}
+
+.spinBtn{
+    position: absolute;
+    display: block;
+    margin-top: -373px;
+    margin-left: 80px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.spinBtn:hover{
+    opacity: 0.8;
+}
+
+.result{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+}
