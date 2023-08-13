@@ -1,0 +1,38 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; 
+    display: flex;
+    border-bottom: 2px solid #f3f3f3;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    z-index: 9999;
+}
+
+input{
+  padding: 12px 20px;
+  border: none;
+  background: #f7f6f6;
+  outline: none;
+  margin-right: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 14rem;  
+}
+
+.nav-icons{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+}
+
+
+.logo-container img{
+  
+  height: 5rem;
+  width: 10rem;
+
+}

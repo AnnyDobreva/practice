@@ -1,0 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #323224;
+}
+li{
+  list-style: none;
+}
+
+

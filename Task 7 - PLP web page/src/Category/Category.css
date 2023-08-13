@@ -1,0 +1,25 @@
+.category-flex{
+    display: flex;
+    margin-left: 20rem;
+    
+}
+
+.category-title{
+    margin-left: 20rem;
+    margin-bottom: 20px;
+    margin-top: 130px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btns{
+    padding: 10px 20px;
+    margin-right: 6px;
+    background: transparent;
+    border: none;
+    border: 0.6px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #323224;
+    cursor: pointer;
+  }
